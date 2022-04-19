@@ -423,7 +423,7 @@ ifeq ($(DEBUG), 1)
    CPUOPTS += -O0 -g
    CPUOPTS += -DOPENGL_DEBUG
 else
-   CPUOPTS += -O2 -DNDEBUG
+   CPUOPTS += -O3 -DNDEBUG
 endif
 
 ifeq ($(platform), qnx)
