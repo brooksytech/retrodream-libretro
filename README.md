@@ -1,4 +1,4 @@
-# Retrodream Libretro - A sega dreamcast emulator for Retroarch
+# Retrodream Libretro - A Sega Dreamcast emulator for Retroarch
 
 This is a mirror of Retrodream Libretro, that was removed from Retroarch's github, with some slight modifications. 
 
