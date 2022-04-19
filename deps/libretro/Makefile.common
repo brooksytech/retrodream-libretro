@@ -95,9 +95,9 @@ endif
 
 ifeq ($(USE_GL1), 1)
 ifeq ($(USE_GL2), 1)
-	SOURCES_C += $(CORE_DIR)/src/render/gl2_backend.c
+	SOURCES_C += deps/sdl2/src/render/opengles2/SDL_render_gles2.c
 else
-	SOURCES_C += $(CORE_DIR)/src/render/gl1_backend.c
+	SOURCES_C += deps/sdl2/src/render/opengles2/SDL_render_gles2.c
 endif
 else
 	SOURCES_C += deps/sdl2/src/render/opengles2/SDL_render_gles2.c
@@ -108,7 +108,7 @@ SOURCES_CXX :=
 SOURCES_CPP :=
 
 ifneq ($(USE_GL1), 1)
-COREFLAGS += 
+COREFLAGS += deps/sdl2/src/render/opengles2/SDL_render_gles2.c
 endif
 
 #==--------------------------------------------------------------------------==#
