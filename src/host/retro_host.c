@@ -1,5 +1,5 @@
 #ifndef USE_GL1
-#include ../../deps/glad/include/glad/glad.h"
+#include "../../deps/glad/include/glad/glad.h"
 #endif
 #include <libretro.h>
 #include <stdio.h>
