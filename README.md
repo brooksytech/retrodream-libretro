@@ -1,38 +1,7 @@
-# redream
+# Retrodream Libretro - A sega dreamcast emulator for Retroarch
 
-[redream](http://redream.io) is a work-in-progress SEGA Dreamcast emulator written in C for Mac, Linux and Windows.
+This is a mirror of Retrodream Libretro, that was removed from Retroarch's github, with some slight modifications. 
 
-redream is licensed under the GPLv3 license (see [LICENSE.txt](LICENSE.txt)) and uses third party libraries that are each distributed under their own terms (see each library's license in [deps/](deps/)).
+It's based on [redream](http://redream.io) before it went closes source. 
 
-## Downloading
-
-The latest pre-built binaries can be found on the [downloads](http://redream.io/download) page.
-
-## Building
-
-Start by cloning the repository and setting up a build directory.
-
-```
-git clone https://github.com/inolen/redream.git
-mkdir redream_build
-cd redream_build
-```
-
-Next, generate a makefile or project file for your IDE of choice. For more info on the supported IDEs, checkout the [CMake documentation](http://www.cmake.org/cmake/help/latest/manual/cmake-generators.7.html).
-
-```
-# Makefile
-cmake -DCMAKE_BUILD_TYPE=RELEASE ../redream
-
-# Xcode project
-cmake -G "Xcode" ../redream
-
-# Visual Studio project
-cmake -G "Visual Studio 14 Win64" ../redream
-```
-
-Finally, you can either run `make` from the command line if you've generated a Makefile or load up the project file and compile the code from inside of your IDE.
-
-## Reporting bugs
-
-Report bugs via the [GitHub issue queue](https://github.com/inolen/redream/issues).
+Retrodream is licensed under the GPLv3 license (see [LICENSE.txt](LICENSE.txt)) and uses third party libraries that are each distributed under their own terms (see each library's license in [deps/](deps/)).
