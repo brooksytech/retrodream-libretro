@@ -108,7 +108,7 @@ SOURCES_CXX :=
 SOURCES_CPP :=
 
 ifneq ($(USE_GL1), 1)
-COREFLAGS += -DHAVE_FASTMEM
+COREFLAGS += 
 endif
 
 #==--------------------------------------------------------------------------==#
